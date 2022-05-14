@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../lab6/index.css">
+
+
+    <title>Laboratorio #6</title>
+</head>
+<body>
+    <div id="container">
+        <img src="pokeapi_256.png" alt="" id="logo">
+    <section id="seccion1">
+        <form id="pokemon-finder-form">
+            <h2>Buscador de Pokemones</h2>
+            <p>Busca desde pokemones hasta las habilidades de los mismos.</p>
+            <div id="text">
+                <h4>Buscar</h4>
+                <h4>Tipo de búsqueda</h4>
+            </div>
+            <div id="inputs">
+                <input id="pokemon-finder-query" type="text">
+                <select id="pokemon-finder-search-type">
+                <option value="pokemon">pokemon</option>
+                <option value="ability">ability</option>
+            </select>
+            </div>
+            <div id="buttons">
+                <button type="submit">Limpiar</button>
+                <button type="submit">Buscar</button>
+            </div>
+            
+        </form>
+    </section>
+    <section id="pokemon-finder-response"></section>
+    
+
+    </div>
+    
+    <script src="utils.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
